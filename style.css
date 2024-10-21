@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white; /* Color oscuro de fondo */
+}
+
+header {
+    font-family: Roboto;
+    background-color: #1F2937; /* Color de fondo */
+    padding: 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.header-texts span {
+    color: #E5E7EB;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+/* Main section */
+.body-container1 {
+    font-family: Roboto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background-color: #1F2937;
+}
+
+.text-container1 {
+    margin:0px 0px 0px 170px;
+    width: 600px;
+}
+
+.text-container1 h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    width: 400px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.text-container1 p {
+    font-size: 18px;
+    width: 450px;
+    color: #E5E7EB; /* Color más tenue para el texto */
+    margin-bottom: 10px;
+}
+
+#button1 {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    width: 120px;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+
+/* Placeholder para la imagen */
+.Image-container {
+    margin:0px 170px 0px 0px;
+    background-color: #6d747d;
+    width: 550px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+/*segundo sector*/
+.body-container2 {
+    background-color: white;
+    font-family: Roboto;
+    color: black;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#title2{
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.columns{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0px 320px 0px 320px;
+}
+
+.columns1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.square{
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6; 
+    background-color: transparent;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+#text{
+    width: 150px;
+}
+
+.body-container3{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 315px;
+    background-color: #e5e7eb;
+}
+
+#text_up{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 50px 30px 10px 30px;
+}
+
+#text_down{
+    font-style: Robotic;
+    font-weight: bold;
+    font-size: 18px;
+    width: 100%;
+    text-align: right;
+    margin-right: 150px;
+}
+
+.body-container4{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.objects{
+    background-color: #3882F6; /* Fondo azul */
+    color: white;
+    padding: 20px 70px;        /* Espaciado interno */
+    border-radius: 10px;       /* Bordes redondeados */
+    display: flex;
+    justify-content: space-between; /* Espacio entre el texto y el botón */
+    align-items: center;
+    height: 35%;
+    width: 73%;                /* Ancho del contenedor */ 
+}
+
+#button2 {
+    background-color: #3882F6;
+    font-family: Roboto;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#p1{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+#p2{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.footer1{
+    width: 100%;
+    height: 100px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.footer1 p{
+    color: #e5e7eb;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
